@@ -1,0 +1,12 @@
+.container {
+  padding: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid red;
+}

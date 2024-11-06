@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+.nav_container{
+    border-bottom:1px solid white;
+    background-color: black;
+    padding: 0.5rem;
+}
+
+
+
+.heading_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:150px;
+}
+
+
+.list{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap:2rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+li{
+    color: white;
+    font-size: 2rem;
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.list{
+    text-decoration: none;
+}
